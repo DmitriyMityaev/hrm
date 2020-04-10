@@ -1,0 +1,21 @@
+@keyframes hearted {
+    from {
+        transform: scale(1);
+      }
+    
+      14% {
+        transform: scale(1.3);
+      }
+    
+      28% {
+        transform: scale(1);
+      }
+    
+      42% {
+        transform: scale(1.3);
+      }
+    
+    to {
+        transform: scale(1);
+      }
+}

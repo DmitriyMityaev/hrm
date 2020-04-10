@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+@import 'animations';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modals';
+@import 'blocks/scrollup';
+@import 'media';
+* {
+    font-family: 'Museo', sans-serif;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+

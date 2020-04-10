@@ -1,0 +1,53 @@
+.reviews {
+    min-height: 1050px;
+    padding-bottom: 70px;
+    &__wrapper {
+        margin-top: 20px;
+    }
+    &__item {
+        padding: 50px 0;
+        display: flex;
+        align-items: start;
+        border-bottom: solid 1px #f6f6f6;
+        &:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        
+    }
+    &__round {
+        min-width: 169px;
+        height: 169px;
+        overflow: hidden;
+        border-radius: 50%;
+        img {
+            width: 169px;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__customer {
+        width: 660px;
+        margin-left: 62px;
+    }
+    &__customer-name {
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__customer-experience {
+        margin-top: 11px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__customer-words {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
